@@ -7,8 +7,6 @@ https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about
 **korábbi vizsgakidolgozások**
 http://zyxon.github.io/pages/mi-vizsga.html
 
-alfa-béta vágás: http://inst.eecs.berkeley.edu/~cs61b/fa14/ta-materials/apps/ab_tree_practice/
-
 ## best first
 > a csúcsoknak súlya van ~ heursiztika. ezeket figyelembe véve, minidg a **legkisebb fele indul**
 
@@ -46,3 +44,4 @@ https://www.youtube.com/watch?v=f9LcjuwWcdw
 > pl: ha adott szintre a minimum kell és a előző maximumot keres akkor ha a az egyk ág klegkisebb értéke is nagyobb mint a a másik ág maximuma úgy azon nm kell kisázmolni a maximumot, hiszen a végén úgyis csak a kisebb érdekel a következő szintre.
 
 https://www.youtube.com/watch?v=80wILJOXFog
+> gyakorlóprogram alfa-béta vágásra: http://inst.eecs.berkeley.edu/~cs61b/fa14/ta-materials/apps/ab_tree_practice/
