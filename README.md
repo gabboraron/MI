@@ -28,12 +28,12 @@ https://www.youtube.com/watch?v=hhCT9wyfEqE
 
 https://www.youtube.com/watch?v=vSXF-beEdko
 
-# negamax
+## negamax
 > felváltva keres maximumot és negáltak maximumát. **mindig `NEGMAX` az első!!**
 
 https://www.youtube.com/watch?v=q4B72LU0ERI
 
-# átlagoló kiértékelés
+## átlagoló kiértékelés
 > két érték adott `n` és `m`, ez egyébként egy `minimax` fa ahol a `MAX` szinteken `n` a `MIN` szinteken `m` darab elemet átlagolunk, értlemeszerűen a maxon az első m darab legnagyobb, a minen az első n darab legkisebb átlaga kell.
 
 https://www.youtube.com/watch?v=f9LcjuwWcdw
