@@ -7,6 +7,18 @@ https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about
 **korábbi vizsgakidolgozások**
 http://zyxon.github.io/pages/mi-vizsga.html
 
+## Vissszalépéses keresés 1
+> - nincs kör és mélységi korlát figyelés
+> - véges körmentes gráfon terminál, ha van megoldás talál egyet
+
+## Vissszalépéses keresés 2
+### elsődleges
+> nem modelfüggő, nem merít a feladattól és annak modelljétől, nem  merít a feladat ismeretiből és a modell sajátosságaiból.
+### másodlagos
+> modellfüggő, nem függ a feladat imsereteitől, de építa feladat modelljének általános elemére, pl lineáris input stratégia
+### heurisztikus
+> feladattól származik, nem rögzített megoldással, de a feladatból ismert adatokat használja
+
 ## best first
 > a csúcsoknak súlya van ~ heursiztika. ezeket figyelembe véve, minidg a **legkisebb fele indul**
 
@@ -22,6 +34,9 @@ https://www.youtube.com/watch?v=bK3Z61A8R48
 
 https://www.youtube.com/watch?v=hhCT9wyfEqE
 > **`A` és `A*` közti különbség:** https://cs.stackexchange.com/questions/50722/algorithm-a-vs-algorithm-a-whats-the-difference
+
+## B
+Bemenő számok együtteséből kimenő értékeket előáállító rendszer,kapcsolódó, tanítható egységekből áll, pl: mesterséges neuron, hálózati topológia, tanulási szabály, neuronháló.
 
 ## minimax
 > felváltva keres minimumot és maximumot a gyerekek között. **mindig `MAX` az első!!**
