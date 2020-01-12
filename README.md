@@ -4,6 +4,8 @@
 https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/learn-ai/
 https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about
 
+**inteligens rendszerek elmélete youtube sorozat (kb 15 óra)** https://www.youtube.com/watch?v=QP0bdol-5Y0&list=PLSBcNSXgMqreVXQV0dMaVrManDyfGnWvF
+
 **korábbi vizsgakidolgozások**
 http://zyxon.github.io/pages/mi-vizsga.html
 
@@ -60,3 +62,6 @@ https://www.youtube.com/watch?v=f9LcjuwWcdw
 
 https://www.youtube.com/watch?v=80wILJOXFog
 > gyakorlóprogram alfa-béta vágásra: http://inst.eecs.berkeley.edu/~cs61b/fa14/ta-materials/apps/ab_tree_practice/
+
+## mesterséges genetikus algoritmusok
+https://www.youtube.com/watch?v=_0TX-pHKRIc
