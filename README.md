@@ -7,7 +7,7 @@ https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about
 **inteligens rendszerek elmélete youtube sorozat (kb 15 óra)** https://www.youtube.com/watch?v=QP0bdol-5Y0&list=PLSBcNSXgMqreVXQV0dMaVrManDyfGnWvF
 
 **korábbi vizsgakidolgozások**
-http://zyxon.github.io/pages/mi-vizsga.html
+http://zyxon.github.io/pages/mi-vizsga.html vagy [cache](http://webcache.googleusercontent.com/search?q=cache:jrdH-2LKvL8J:zyxon.github.io/pages/mi-vizsga.html+&cd=1&hl=en&ct=clnk&gl=hu&client=ubuntu)
 
 ## Vissszalépéses keresés 1
 > - nincs kör és mélységi korlát figyelés
