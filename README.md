@@ -73,3 +73,10 @@ https://www.youtube.com/watch?v=80wILJOXFog
 
 ## mesterséges genetikus algoritmusok
 https://www.youtube.com/watch?v=_0TX-pHKRIc
+
+## automatikus következtetés
+> 
+
+## bizonytalanság kezelés
+https://www.inf.u-szeged.hu/~berendg/?pp=teaching&subj=dm
+
