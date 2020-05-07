@@ -71,11 +71,60 @@ https://www.youtube.com/watch?v=80wILJOXFog
 > gyakorlóprogram alfa-béta vágásra: http://inst.eecs.berkeley.edu/~cs61b/fa14/ta-materials/apps/ab_tree_practice/
 **Mintafeladat:**: feladat: [08.HF_game.pdf](https://github.com/gabboraron/MI-EA/blob/master/08.HF_game.pdf)  és megoldás: [Alfa-béta.jpg](https://github.com/gabboraron/MI-EA/blob/master/Alfa_b%C3%A9ta.jpg)
 
-## mesterséges genetikus algoritmusok
+## mesterséges genetikus algoritmusok/evolúciós algoritmusok
 https://www.youtube.com/watch?v=_0TX-pHKRIc
 
-## automatikus következtetés
+> **Mintafeladat**
+>
+> Tervezzen evolúciós algoritmust az utazó ügynök probléma minél jobb megoládásának előállítására!
+>
+> Adott n város a közöttük vezető utak költségeivel. Melyik a legolcsóbb olyan útvonal, amely egy adott városból indulva mindegyik várost  pontosan egyszer érintve visszatér a kiinduló városba?
+>
+> Készítsen egy rövid dokumentációt:
 > 
+> - problématér (Mik legyenek a probléma egyedei?)
+> - reprezentáció (Hogyan kódoljuk az egyedeket?)
+> - rátermettségi függvény (Hogyan mérjük az egyedek rátermettségét?)
+> - evolúciós operátorok (Javasoljon kiválasztásra, rekombinálásra, mutációra, visszahelyezésre egy-egy módszert.)
+> - stratégiai paraméterek (Mi legyen populáció mérete, a mutáció valószínűsége, az utódképzési- és a visszahelyezési táta?)
+> - Mutasson be egy evolúciós ciklust!
+>
+> **Mintamegoldás: [EvolúcióHF_mo.pdf](https://github.com/gabboraron/MI-EA/blob/master/Evol%C3%BAci%C3%B3HF_mo.pdf)**
+
+## Automatikus következtetés
+> **Mintafeladat**
+>
+> Axiómák: „Aki tud írni és olvasni, az nem analfabéta.  A delfinek analfabéták. Néhány delfin intelligens." 
+>
+> Célállítás: "Vannak olyan intelligens lények, akik nem tudnak írni és olvasni."
+>
+> Bizonyítsa be rezolúcióval és szabályalapú következtetéssel, hogy a célállítás következik az axiómákból.
+> 
+> Meg kell adni:
+>
+> - Az axiómák és a célállítás formuláit
+> - Kiinduló klózokat
+> - Cáfolati gráfot
+> - Szabályalapú reprezentációt (tényállítás, szabályok, célállítás)
+> - A szabályalapú következtetés irányát.
+> - A bizonyítást leíró ÉS/VAGY gráfot
+>
+> Segítség:
+> 
+> 1. Használja az alábbi szimbólumokat
+> 
+> Predikátum szimbólumok:
+> 
+> - A(x)     : x analfabéa
+> - I(x)      : x intelligens
+> - D(x)    : x egy delfin
+> - IO(x) : x ctud írni és olvasni
+> 
+> 2. A rezolúciónál mindig csak olyan klózpárt rezolváljon, ahol az egyik klóz a célállításból származik.
+>
+> 3. Ha van IO(x) → ! A(x) szabálya, akkor használhatja az A(x) → ! IO(x) (kontrapozitív) szabályt is.
+>
+> **Mintamegoldás: [KövetkeztetésHF_mo.pdf](https://github.com/gabboraron/MI-EA/blob/master/K%C3%B6vetkeztet%C3%A9sHF_mo.pdf)**
 
 ## bizonytalanság kezelés
 https://www.inf.u-szeged.hu/~berendg/?pp=teaching&subj=dm
