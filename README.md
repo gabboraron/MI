@@ -88,8 +88,8 @@ https://www.youtube.com/watch?v=_0TX-pHKRIc
 > - evolúciós operátorok (Javasoljon kiválasztásra, rekombinálásra, mutációra, visszahelyezésre egy-egy módszert.)
 > - stratégiai paraméterek (Mi legyen populáció mérete, a mutáció valószínűsége, az utódképzési- és a visszahelyezési táta?)
 > - Mutasson be egy evolúciós ciklust!
->
-> **Megoldások:**
+
+**Megoldások:**
 - mintamegoldás: [EvolúcióHF_mo.pdf](https://github.com/gabboraron/MI-EA/blob/master/Evol%C3%BAci%C3%B3HF_mo.pdf)
 - saját, majdnem tökéletes megoldás: https://github.com/gabboraron/MI-EA/blob/master/MI%20beadand%C3%B3%20genetikus%20algoritmus.pdf
 
@@ -125,8 +125,8 @@ https://www.youtube.com/watch?v=_0TX-pHKRIc
 > 2. A rezolúciónál mindig csak olyan klózpárt rezolváljon, ahol az egyik klóz a célállításból származik.
 >
 > 3. Ha van IO(x) → ! A(x) szabálya, akkor használhatja az A(x) → ! IO(x) (kontrapozitív) szabályt is.
->
-> **Mintamegoldás: [KövetkeztetésHF_mo.pdf](https://github.com/gabboraron/MI-EA/blob/master/K%C3%B6vetkeztet%C3%A9sHF_mo.pdf)**
+
+**Mintamegoldás: [KövetkeztetésHF_mo.pdf](https://github.com/gabboraron/MI-EA/blob/master/K%C3%B6vetkeztet%C3%A9sHF_mo.pdf)**
 
 ## bizonytalanság kezelés
 https://www.inf.u-szeged.hu/~berendg/?pp=teaching&subj=dm
@@ -135,6 +135,7 @@ https://www.inf.u-szeged.hu/~berendg/?pp=teaching&subj=dm
 > Egy gépjármű akkumulátorának állapotára az úgynevezett „zöld szem” színe alapján következtethetünk: ez 0.95 valószínűséggel elsötétül, ha az akkumulátor lemerült, de 0.2 valószínűséggel akkor sem zöld, ha az akkumulátor jó. A gépjármű indító-motora csak 0.1 valószínűséggel működik lemerült akkumulátorral, de száz esetből egyszer nem üzemel akkor se, ha az akkumulátor jó. Az akkumulátort nem rég vásároltuk (jó állapotban van), így egy a kilenchez (10-ből egy) annak esélye, hogy lemerült. A benzin-motor 0.9 valószínűséggel nem indul be, ha az indító-motor nem forog, de 0.2 eséllyel akkor sem, ha az indító-motor működik.
 >
 > Válassza ki a probléma valószínűségi változóit, adja meg a probléma valószínűségi hálóját a csúcsok valószínűségi tábláival együtt. 
+
 **Mintamegoldás**: https://github.com/gabboraron/MI-EA/blob/master/BizonytalansagkezelesHF.pdf
 
 ## Döntési fa
@@ -154,12 +155,14 @@ https://www.inf.u-szeged.hu/~berendg/?pp=teaching&subj=dm
 > Rajzolja fel a probléma döntési fáját! Ennél mindig a legnagyobb információs előnyt biztosító attribútumot válassza.
 >
 > (Néhány entrópia érték: E(1/2,1/2)=1.0; E(1/3,2/3)=0.92; E(1/4,3/4)=0.81; E(1/5,4/5)=0.72; E(2/5,3/5)=0.97)
+
 **Mintamegoldás**: https://github.com/gabboraron/MI-EA/blob/master/Dontesi_fa.pdf
 
 ## Mesterséges neuronháló
 > **Mintafeladat**
 >
 > Tervezzen egy olyan neuronhálózatot, amely síkbeli koordináta rendszer pontjairól el tudja dönteni, hogy azok beleesnek-e azon origó középpontú rombuszba, amelynek átlói a koordináta tengelyekre esnek (origóban metszik egymást) és 2 egység hosszúak. Használjon Rosenblatt-féle perceptronokat. (A perceptronok súly-tényezőit "kézzel" kell kiszámolnia.)
+
 **Megoldások:** 
 - mintamegoldás: https://github.com/gabboraron/MI-EA/blob/master/neuronHF.pdf 
 - saját, full pontos megoldás: https://github.com/gabboraron/MI-EA/blob/master/MI-mesters%C3%A9ges_neuronhalo.pdf és adatbázis hozzá: https://github.com/gabboraron/MI-EA/blob/master/rombok(1).ods
