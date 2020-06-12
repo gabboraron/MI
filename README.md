@@ -89,7 +89,9 @@ https://www.youtube.com/watch?v=_0TX-pHKRIc
 > - stratégiai paraméterek (Mi legyen populáció mérete, a mutáció valószínűsége, az utódképzési- és a visszahelyezési táta?)
 > - Mutasson be egy evolúciós ciklust!
 >
-> **Mintamegoldás: [EvolúcióHF_mo.pdf](https://github.com/gabboraron/MI-EA/blob/master/Evol%C3%BAci%C3%B3HF_mo.pdf)**
+> **Megoldások:**
+- mintamegoldás: [EvolúcióHF_mo.pdf](https://github.com/gabboraron/MI-EA/blob/master/Evol%C3%BAci%C3%B3HF_mo.pdf)
+- saját, majdnem tökéletes megoldás: https://github.com/gabboraron/MI-EA/blob/master/MI%20beadand%C3%B3%20genetikus%20algoritmus.pdf
 
 ## Automatikus következtetés
 > **Mintafeladat**
@@ -128,4 +130,36 @@ https://www.youtube.com/watch?v=_0TX-pHKRIc
 
 ## bizonytalanság kezelés
 https://www.inf.u-szeged.hu/~berendg/?pp=teaching&subj=dm
+> **Mintafeladat**
+>
+> Egy gépjármű akkumulátorának állapotára az úgynevezett „zöld szem” színe alapján következtethetünk: ez 0.95 valószínűséggel elsötétül, ha az akkumulátor lemerült, de 0.2 valószínűséggel akkor sem zöld, ha az akkumulátor jó. A gépjármű indító-motora csak 0.1 valószínűséggel működik lemerült akkumulátorral, de száz esetből egyszer nem üzemel akkor se, ha az akkumulátor jó. Az akkumulátort nem rég vásároltuk (jó állapotban van), így egy a kilenchez (10-ből egy) annak esélye, hogy lemerült. A benzin-motor 0.9 valószínűséggel nem indul be, ha az indító-motor nem forog, de 0.2 eséllyel akkor sem, ha az indító-motor működik.
+>
+> Válassza ki a probléma valószínűségi változóit, adja meg a probléma valószínűségi hálóját a csúcsok valószínűségi tábláival együtt. 
+**Mintamegoldás**: https://github.com/gabboraron/MI-EA/blob/master/BizonytalansagkezelesHF.pdf
 
+## Döntési fa
+> **Mintafeladat**
+>
+> Tanuljuk meg, hogy a barátunk (barátnőnk) milyen filmeket szeret megnézni a moziban, ha az alábbiakat figyeltük meg eddig:
+
+      HA  Származás                    Feliratos                             Téma               AKKOR            Tetszik neki
+
+          amerikai                        igen                               akció                                  nem
+          magyar                          nem                                akció                                  nem
+          francia                         nem                                vígjáték                               igen
+          amerikai                        igen                               krimi                                  nem
+          magyar                          nem                                vígjáték                               igen
+          amerikai                        nem                                romantikus                             igen
+>
+> Rajzolja fel a probléma döntési fáját! Ennél mindig a legnagyobb információs előnyt biztosító attribútumot válassza.
+>
+> (Néhány entrópia érték: E(1/2,1/2)=1.0; E(1/3,2/3)=0.92; E(1/4,3/4)=0.81; E(1/5,4/5)=0.72; E(2/5,3/5)=0.97)
+**Mintamegoldás**: https://github.com/gabboraron/MI-EA/blob/master/Dontesi_fa.pdf
+
+## Mesterséges neuronháló
+> **Mintafeladat**
+>
+> Tervezzen egy olyan neuronhálózatot, amely síkbeli koordináta rendszer pontjairól el tudja dönteni, hogy azok beleesnek-e azon origó középpontú rombuszba, amelynek átlói a koordináta tengelyekre esnek (origóban metszik egymást) és 2 egység hosszúak. Használjon Rosenblatt-féle perceptronokat. (A perceptronok súly-tényezőit "kézzel" kell kiszámolnia.)
+**Megoldások:** 
+- mintamegoldás: https://github.com/gabboraron/MI-EA/blob/master/neuronHF.pdf 
+- saját, full pontos megoldás: https://github.com/gabboraron/MI-EA/blob/master/MI-mesters%C3%A9ges_neuronhalo.pdf és adatbázis hozzá: https://github.com/gabboraron/MI-EA/blob/master/rombok(1).ods
